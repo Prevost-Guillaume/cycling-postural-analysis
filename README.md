@@ -1,8 +1,8 @@
 # cycling-postural-analysis
-How does AI can help cyclists ?
-
+<img src=images/thumbnail.png width=400>    
+  
 This tool uses AI to analyze the cyclist's position on the bike in order to extract statistics on the cyclist's position.  
-
+   
 ## Method
 The google mediapipe tool is used to extract key body points in 3D and analyze position. Visibility information for each key point is used to determine which direction the cyclist is facing.
 We then extract several angles (ankle, knee, hip, shoulder, elbow)
@@ -48,7 +48,7 @@ For this, each pedaling cycle (corresponding to one pedal revolution) is set to 
 Using the montecarlo thresholding method, it is possible to visualize within the cycle when an angle is significantly greater or less than the reference. This is indicated by green or red highlighting.   
 This visualization provides an in-depth analysis of how each joint works during a pedal stroke.  
 Take, for example, the following knee angle:  
-[image images/lower_stats.png]  
+<img src=images/lower_stats.png>
 Analysis of joint pedaling cycles involving the ankle and knee shows an inverse correlation between the knee problem and the ankle problem during the cycle.  
 It would be interesting to work on using the ankle (which is at an almost constant angle during the cycle). This could solve the knee angle problem.
 This visualization can also be used to highlight movements correlated with the pedaling cycle that should not take place (elbow or shoulder angle on a TT, for example, which translates into periodic movement of the arms when the aero position should not move).  
