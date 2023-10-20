@@ -1,6 +1,8 @@
 # cycling-postural-analysis
+<p align="center">
 <img src=images/thumbnail.png width=400>    
-  
+</p>
+
 This tool uses AI to analyze the cyclist's position on the bike in order to extract statistics on the cyclist's position.  
    
 ## Method
